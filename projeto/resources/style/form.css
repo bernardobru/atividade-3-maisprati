@@ -1,0 +1,34 @@
+.clear {
+    clear: both;
+}
+header h1 {
+    text-align: center;
+}
+fieldset {
+    max-width: 25%;
+    margin: auto;
+}
+fieldset form {
+    padding: 10px;
+}
+fieldset form input {
+    padding: 3px;
+    margin: 10px auto;
+}
+fieldset form input#input-nome, fieldset form input#input-email {
+    display: block;
+}
+fieldset form textarea#input-mensagem {
+    margin: 10px auto;
+    display: block;
+    padding: 3px;
+}
+fieldset form input#enviar {
+    float: right;
+}
+label {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
