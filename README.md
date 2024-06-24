@@ -1,2 +1,1 @@
-# atividade-landing-page-maispraTI
-Este repositório contém todos os arquivos do projeto de landing-page do curso FullStack da maisPraTI
+# Projeto de landing-page do módulo 03 do curso fullstack da +praTI
