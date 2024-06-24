@@ -13,8 +13,8 @@
     --color03: #AA9739;
     --color04: #555039;
     --color05: #f2f2f2;
-    --font01: "Open Sans", 'sans-serif';
-    --font02: 'Oswald', 'sans-serif';
+    --font01: "Open Sans", sans-serif;
+    --font02: Oswald, sans-serif;
 }
 /* cabeçalho */
 #cabecalho-principal {
@@ -74,10 +74,38 @@
     text-decoration: none;
     color: var(--color01);
     padding-left: 1%;
-    font-family: "Open Sans", 'sans-serif';
+    font-family: var(--font01);
 }
 .menu-navegacao a:hover {
     color: var(--color03);
     transition: 0.66s;
 }
 /* fim cabeçalho */
+
+/* principal */
+main {
+    max-width: 55%;
+    margin: auto;
+    padding: 1%;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+}
+#sobre p {
+    padding: 1%;
+}
+main img {
+    float: right;
+    padding-left: 1%;
+}
+/* fim principal */
+
+/* rodapé */
+footer {
+    padding: 5%;
+    margin: auto;
+}
+footer p {
+    text-align: center;
+}
+/* fim rodapé */
