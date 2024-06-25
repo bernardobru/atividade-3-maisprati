@@ -18,28 +18,51 @@
         <button class="menu-hamburguer" onclick="menuHamburguer()">☰</button>
         <div id="menu">
             <nav class="menu-navegacao">
-                <p>
+                <div id="links">
                     <a href="../index.html">Início</a>
                     <a href="">Produtos</a>
                     <a href="pages/contato.html">Contato</a>
-                </p>
+                </div>
             </nav>
         </div>
         <div class="clear"></div>
     </header>
-    <fieldset>
-        <legend>Entre em contato</legend>
-        <div class="clear"></div>
-        <form action="">
-            <label for="input-nome">Nome Completo</label>
-            <input type="text" id="input-nome" placeholder="Insira seu nome">
-            <label for="input-email">Email</label>
-            <input type="email" id="input-email" placeholder="Insira seu email">
-            <label for="input-mensagem">Mensagem</label>
-            <textarea name="" id="input-mensagem" cols="30" rows="10" placeholder="Digite uma mensagem para nós"></textarea>
+    <main>
+        <fieldset>
+            <legend>Entre em contato</legend>
             <div class="clear"></div>
-            <input type="submit" id="enviar">
-        </form>
-    </fieldset>
+            <form action="">
+                <label for="input-nome">Nome Completo</label>
+                <input type="text" id="input-nome" placeholder="Insira seu nome">
+                <label for="input-email">Email</label>
+                <input type="email" id="input-email" placeholder="Insira seu email">
+                <label for="input-mensagem">Mensagem</label>
+                <textarea name="" id="input-mensagem" cols="30" rows="10" placeholder="Digite uma mensagem para nós"></textarea>
+                <div class="clear"></div>
+                <input type="submit" id="enviar" onclick="botaoEnviar()">
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <section id="endereco" class="float">
+            <h4>Endereço:</h4>
+            <p>Avenida Paulista <br> Bela Vista <br> São Paulo, SP</p>
+        </section>
+        <section id="contato" class="float">
+            <h4>Contato:</h4>
+            <h5>Email:</h5> contato@cestasbrasilmais.com
+            <h5>Telefone:</h5> (11)9 9000 0000
+        </section>
+        <section id="menu-footer" class="float">
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </section>
+        <div class="clear"></div>
+        <p id="copy">&copy; 2024 | Cestas +Brasil - Todos os direitos reservados</p>
+    </footer>
+    <script src="../resources/js/verificacao-contato.js"></script>
 </body>
 </html>
