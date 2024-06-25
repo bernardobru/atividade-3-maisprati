@@ -32,13 +32,16 @@ header #titulo-principal{
 }
 header img {
     float: left;
-    padding: 5%;
+    padding: 1% 5% 5% 5%;
     margin-bottom: -15%;
 }
 header h1 {
     padding: 10px;
     font-size: 3em;
     color: var(--color05);
+}
+header p {
+    font-size: 2em;
 }
 #links {
     text-align: center;
