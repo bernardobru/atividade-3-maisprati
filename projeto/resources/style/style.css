@@ -8,11 +8,13 @@
     clear: both;
 }
 :root {
-    --color01: #fdcd02;
-    --color02: #33322B;
-    --color03: #AA9739;
-    --color04: #555039;
-    --color05: #f2f2f2;
+    --color01: #f1a922;
+    --color02: #2e261c;
+    --color03: #aa7939;
+    --color04: #44382d;
+    --color05: #f0eae2;
+    --color06: #9e7033;
+    --color07: #ddd0be;
     --font01: "Open Sans", sans-serif;
     --font02: Oswald, sans-serif;
 }
@@ -31,7 +33,6 @@
 #cabecalho-principal img {
     float: left;
     padding: 5%;
-    margin-top: -5%;
     margin-bottom: -15%;
 }
 #cabecalho-principal h1 {
@@ -61,7 +62,7 @@
     color: #fff;
 }
 .menu-navegacao {
-    background: linear-gradient(180deg, #33322B, #555039);
+    background: linear-gradient(180deg, var(--color02), var(--color04));
     padding: 20px;
     display: none;
 }
@@ -78,8 +79,8 @@
     font-family: var(--font01);
 }
 .menu-navegacao a:hover {
-    color: var(--color03);
-    transition: 0.66s;
+    color: var(--color06);
+    transition: 0.3s;
 }
 /* fim cabeçalho */
 
@@ -95,22 +96,47 @@ main {
 #sobre p {
     padding: 1%;
 }
-#quem-somos {
+main img {
     float: right;
     padding-left: 1%;
-}
-#mercado {
-    float: left;
-    padding-right: 1%;
 }
 /* fim principal */
 
 /* rodapé */
 footer {
-    padding: 5%;
-    margin: auto;
+    font-family: var(--font01);
+    display: inline-block;
+    background-color: var(--color07);
+    padding: 1rem 5rem;
+    text-align: start;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--color02);
 }
-footer p {
+footer a{
+    text-decoration: none;
+    color: var(--color02);
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.float {
+    float: left;
+}
+#local {
+    border: none;
+    border-radius: 10px;
+}
+footer .float ul {
+    list-style: none;
+    float: right;
+}
+#contato, #menu-footer, #endereco {
+    width: 33%;
+}
+#copy {
+    margin-top: 2em;
     text-align: center;
 }
 /* fim rodapé */
