@@ -31,6 +31,7 @@
 #cabecalho-principal img {
     float: left;
     padding: 5%;
+    margin-top: -5%;
     margin-bottom: -15%;
 }
 #cabecalho-principal h1 {
@@ -94,9 +95,13 @@ main {
 #sobre p {
     padding: 1%;
 }
-main img {
+#quem-somos {
     float: right;
     padding-left: 1%;
+}
+#mercado {
+    float: left;
+    padding-right: 1%;
 }
 /* fim principal */
 

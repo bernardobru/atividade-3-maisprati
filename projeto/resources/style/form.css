@@ -30,6 +30,7 @@ header #titulo-principal{
 header img {
     float: left;
     padding: 5%;
+    margin-top: -5%;
     margin-bottom: -15%;
 }
 header h1 {
@@ -95,6 +96,7 @@ fieldset legend {
     font-size: 1.5em;
     font-weight: bold;
     color: var(--color04);
+    padding: 10px;
 }
 fieldset form {
     padding: 10px;
@@ -116,8 +118,9 @@ fieldset form textarea#input-mensagem {
 fieldset form input#enviar {
     float: right;
     border: 2px solid var(--color04);
-    background-color: #33322B;
+    background-color: var(--color04);
     color: var(--color05);
+    margin-bottom: 5px;
 }
 label {
     display: block;
